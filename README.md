@@ -50,7 +50,14 @@ Let's delete the appropriate information from `usersContact`, `usersAddress` and
 ## SQL Statements
 
 1. INSERT two users:
-
+INSERT INTO users
+    (first_Name, last_Name)
+VALUES
+    ('test', 'user'); 
+ INSERT INTO users
+      (first_Name, last_Name)
+VALUES
+    ('test','user');
 
 2. UPDATE all Ohio addresses to "REDACTED":
 
@@ -58,12 +65,16 @@ Let's delete the appropriate information from `usersContact`, `usersAddress` and
 
 * DELETE from usersContact
 
+WHERE id = 144;
 
 * DELETE from usersAddress
-
+WHERE id = 144;
 
 * DELETE from users
+WHERE id = 144;
+DELETE FROM users
 
+WHERE id = 144
 
 ## Summary
 
